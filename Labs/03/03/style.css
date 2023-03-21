@@ -1,0 +1,81 @@
+/*Background image*/
+body{
+    background-image: url("..//images/image.jpg");
+}
+
+/*logo*/
+.logo{
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+}
+
+/*header*/
+header h1{
+    font-family:sans-serif;
+    font-size: 45px;
+}
+
+header h4{
+    font-family: cursive;
+    font-size: 25px;
+    line-height: 5px;
+}
+
+/*horizontal line*/
+hr{
+    border: 1px solid black;
+}
+
+/*nav bar*/
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    margin-top: 10px;
+    padding: 25px;
+    float: left;
+    width: 100%;
+}
+
+.navbar .list a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 25px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.navbar .list{
+    display: inline;
+    border: 1px white solid;
+    padding: 15px 25px;
+}
+
+.navbar .list:hover{
+    border: 3px white solid;
+    background-color: pink;
+    color: black;
+}
+
+/*table*/
+.productdata{
+    background-color: white;
+    padding: 3px;
+    margin: 15px 10px 10px 10px;
+}
+
+.productdata table{
+    border: groove darkblue 5px;
+    padding: 3px;
+}
+
+th.col2{
+    text-align: left;
+}
+
+/*footer*/
+footer{
+    font-size: 15px;
+    background-color: rgb(21, 228, 32);
+}
